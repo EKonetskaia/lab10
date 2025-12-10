@@ -1,1 +1,3 @@
-“.dvcignoren.dvc”
+.dvcignore
+.dvc
+.env*
