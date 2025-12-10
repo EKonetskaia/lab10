@@ -2,5 +2,6 @@
 .dvc
 .env*
 data/
+!data/*.dvc
 models/
 *.cache 
