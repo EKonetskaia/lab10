@@ -1,3 +1,6 @@
 .dvcignore
 .dvc
 .env*
+data/
+models/
+*.cache 
