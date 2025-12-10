@@ -2,6 +2,8 @@
 .dvc
 .env*
 data/
-!data/*.dvc
+!data/raw/*.dvc
+!data/interim/*.vcd
+!data/processed/*.dvc
 models/
 *.cache 
