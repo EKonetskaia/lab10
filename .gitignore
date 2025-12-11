@@ -1,11 +1,11 @@
 .env*
 
-data/*
+data/**
 !data/**/*.dvc
 !data/**/*.gitignore
 !data/processed/*.dvc
 
-models/*
+models/**
 !models/**/*.gitignore
 !models/processed/*.dvc
 *.cache 
