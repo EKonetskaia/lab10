@@ -1,11 +1,10 @@
 .env*
 
+# Ignore everything under data
 data/**
-!data/**/*.dvc
-!data/**/*.gitignore
-!data/processed/*.dvc
 
-models/**
-!models/**/*.gitignore
-!models/processed/*.dvc
+# But allow DVC metadata files
+!data/**/*.dvc
+!data/**/.gitignore
+
 *.cache 
