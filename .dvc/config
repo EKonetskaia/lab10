@@ -1,5 +1,4 @@
 [core]
-    remote = storage
-['remote "storage"']
-    url = ssh://konetskaiae@ssh.mini.pw.edu.pl:/home2/samba/konetskaiae/Documents/dvc_project
-    ask_password = true
+    remote = localstore
+['remote "localstore"']
+    url = /home/elena/dvc_locstorage
